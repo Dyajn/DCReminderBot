@@ -1,0 +1,24 @@
+{
+  "groups": {
+    "deadline": {
+      "description": "Deadline command aliases",
+      "commands": {
+        "add": "project.create",
+        "list": "project.list",
+        "delete": "project.delete",
+        "add-reminder": "project.add-reminder"
+      }
+    },
+    "assessments": {
+      "description": "Assessment aliases",
+      "commands": {
+        "get-all": "assess.qa-get",
+        "topics": "assess.topic-list",
+        "add-bulk": "assess.topic-upsert"
+      }
+    }
+  },
+  "singles": {
+    "pong": "ping"
+  }
+}
